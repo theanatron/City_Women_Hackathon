@@ -13,6 +13,7 @@ To run this project, you need to have Python installed. Additionally, the follow
 3. matplotlib
 4. json
 5. mplsoccer
+
 You can install these libraries using the following command:
   
   pip install pandas numpy matplotlib json mplsoccer
