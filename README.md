@@ -1,12 +1,33 @@
-# City_Women_Hackathon
+### Manchester City Women's Ball Possession Analysis
 
-The goal is to analyze how Manchester City Women build an attack using the ball from different zones on the pitch, specifically divided into four quarters. The analysis involves six steps, starting with exploratory data analysis, followed by data cleaning. The pitch is then divided into four quarters, each with their respective start and end zones. The labels for the quarters are assigned from left to right, with the goalkeeper being in the leftmost quarter labeled 'defensive'. The next three quarters are labeled 'predefensive', 'preoffensive', and 'offensive', respectively. To determine the most impactful passing, a points system is added. Finally, the data is visualized to provide a clearer understanding of the analysis.
+This project aims to analyze how Manchester City Women build an attack using the ball from different zones on the pitch, divided into four quarters. The analysis involves six steps, starting with exploratory data analysis, followed by data cleaning. The pitch is then divided into four quarters, each with their respective start and end zones. The labels for the quarters are assigned from left to right, with the goalkeeper being in the leftmost quarter labeled 'defensive'. The next three quarters are labeled 'predefensive', 'preoffensive', and 'offensive', respectively.
 
-From the technical aspects, you will need Python to run this project and the following libraries :
-1. pandas
-2. numpy
-3. matplotlib
-4. json
-5. mplsoccer
+A points system is added to determine the most impactful passing. Finally, the data is visualized to provide a clearer understanding of the analysis.
+
+#### Requirements
+
+To run this project, you need to have Python installed. Additionally, the following libraries are required:
+
+pandas
+numpy
+matplotlib
+json
+mplsoccer
+You can install these libraries using the following command:
+
+Copy code
+pip install pandas numpy matplotlib json mplsoccer
+Usage
+
+To run the analysis, you need to run the Python script main.py. You can do this by running the following command:
+
+css
+Copy code
+python main.py
+The script will generate a plot showing the ball possession of Manchester City Women and their efficiency in building an attack from different zones on the pitch.
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 
