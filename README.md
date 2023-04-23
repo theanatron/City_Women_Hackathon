@@ -1,5 +1,5 @@
 # Pass Progression Insights - Manchester City vs Tottenham
-### by Ana De Souza and Ope Bonarin
+by Ana De Souza and Ope Bonarin
 
 This project aims to analyze how Manchester City Women build an attack using the ball from different zones on the pitch, divided into four quarters. The analysis involves six steps, starting with exploratory data analysis, followed by data cleaning. The pitch is then divided into four quarters, each with their respective start and end zones. The labels for the quarters are assigned from left to right, with the goalkeeper being in the leftmost quarter labeled 'defensive'. The next three quarters are labeled 'predefensive', 'preoffensive', and 'offensive', respectively.
 
